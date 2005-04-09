@@ -1,0 +1,89 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    font: 10pt/125% "Trebuchet MS", Helvetica, sans-serif;
+    background: #eee;
+    }
+
+/* Formation Elements --------------------------------- */
+
+#wrap1{
+    padding: 0 10px;
+    border: solid #0061d0;
+    border-width: 0 1px 1px 1px;
+	min-height: 400px;
+    background: #fff;
+    }
+
+#wrapout{
+    border: solid #00bd4f;
+    border-width: 0 1px 1px 1px;
+    width: 790px;
+	min-height: 400px;
+    margin: 0 auto;
+    }
+
+#header1{
+    height: 65px;
+    background: url("./img/geska-logo.gif") no-repeat top left;
+    }
+
+#header2{
+    height: 65px;
+    background: url("./img/g-edit-welcome.gif") no-repeat bottom right;
+    }
+    
+#site-name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 10px 0;
+    }
+
+#admin-menu{
+    width: 100px;
+    float: left;
+    }
+
+#admin-menu #a-head{
+    background: url("./img/edit-options.gif") no-repeat top left;
+    height: 21px;
+    width: 104px;
+    margin-bottom: 5px;
+    }
+
+#admin-menu a{
+    text-decoration: none;
+    color: #000;
+    }
+
+#editable{
+    margin-left: 110px;
+    }
+
+#editable #e-head{
+    background: #00bd4f url("./img/edit-right.gif") no-repeat top right;
+    height: 21px;
+    line-height: 21px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #fff;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    }
+
+#editable #e-head-left{
+    background: url("./img/edit-left.gif") no-repeat top left;
+    padding-left: 9px;
+    }
+
+#footer{
+    text-align: center;
+    padding: 10px 0;
+    }
+
+/* Styling Classes ------------------------------------- */
+
+.nodisplay{
+    display: none;
+    }
